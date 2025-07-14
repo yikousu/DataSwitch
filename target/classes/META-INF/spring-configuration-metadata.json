@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.order",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.hac.config.DataSourceConfig",
+      "sourceMethod": "orderDataSource()"
+    },
+    {
+      "name": "spring.datasource.user",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.hac.config.DataSourceConfig",
+      "sourceMethod": "userDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
